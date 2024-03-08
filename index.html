@@ -1,14 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <meta charset="UTF-8">
-<title>Page Title</title>
+<title>Home-tomxia</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<link rel="stylesheet" href="">
-<style>
-</style>
-<script src=""></script>
-    <!--- Code above this line will not be displayed on the browser -->
-    <body>
-        <p> Hello world! My name is Yu Xia</p>
-    </body>
+<link rel="stylesheet" href="styles.css">
+<body>
+    <nav>
+        <a class="navitem_cur">Home</a>
+        <a href="resume.html" style="text-decoration:underline"> Resume</a>
+        <a href="photos.html" style="text-decoration:underline">Photos</a>
+        <a href="projects.html" style="text-decoration:underline">Projects</a>
+    </nav>
+    <div class="home_p">
+        <div class="home_main">
+            <h1>Hello there!</h1>
+            <p style="font-weight: bold;"> Hi, I am "tomxia", welcome to my place.</p>
+            <p>You will find things I'd like to share here, including: </p>
+            <dl>
+                <dt>Resume</dt>
+                <dd>A resume, very short.</dd>
+
+                <dt>Photos</dt>
+                <dd>I love photography. I wish I had more time to go out and capture the beautiful landscapes.</dd>
+
+                <dt>Projects</dt>
+                <dd>Of course, an engineer has some design that make him proud.</dd>
+            </dl>
+        </div>
+        <img class="home_side" src="self.jpg" alt="A potrait of myself, with face covered by nerd face emoji."/>
+    </div>
+    <footer style="text-align: center;">
+        <p>&copy; 2024 tomxia.github.io</p>
+        <a href="https://github.com/TomXia" alt="My github profile page.">GitHub</a>
+    </footer>
+</body>
 </html>
